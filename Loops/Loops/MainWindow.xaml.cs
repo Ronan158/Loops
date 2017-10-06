@@ -20,9 +20,22 @@ namespace Loops
     /// </summary>
     public partial class MainWindow : Window
     {
+        
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void btn_Click(object sender, RoutedEventArgs e)
+        {
+            String answer = tbx.Text.Trim();
+
+            if (answer == "100")
+            {
+               
+
+                Console.WriteLine("Well Done!");
+            }
         }
     }
 }
